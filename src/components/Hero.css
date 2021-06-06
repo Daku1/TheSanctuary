@@ -1,0 +1,101 @@
+.hero-container {
+    background-image: url('I:\intern\TheSanctuary\src\images\back2.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-content {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 1.5rem;
+    max-height: 100%;
+    padding: 0 3rem;
+    margin-bottom: 40px;
+    width: 100%;
+    color: #fff;
+    line-height: 1.5;
+}
+h1 {
+    width: 950px;
+    padding: 0rem 8rem;
+    text-align: center;
+    border-bottom: white;
+}
+h4 {
+    margin-top: 2rem;
+    background: linear-gradient(
+        to right bottom,
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.7)
+    );
+    padding-top: 0rem;
+    text-align: center;
+    color: #ffeaf0;
+    padding: 1rem 1rem;
+    border-radius: 10px;
+    width: 850px;
+}
+
+.donate {
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    background-color: #f00946;
+    color: white;
+    border-radius: 20px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.donate:hover {
+    background-color: #830527;
+    transition: 0.3s ease;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 828px) {
+    h1 {
+        width: 850px;
+        padding: 0rem 8rem;
+        text-align: center;
+        border-bottom: white;
+    }
+    h4 {
+        margin-top: 2rem;
+        background: linear-gradient(
+            to right bottom,
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.7)
+        );
+        padding-top: 0rem;
+        text-align: center;
+        color: #ffeaf0;
+        padding: 1rem 1rem;
+        border-radius: 10px;
+        width: 650px;
+    }
+
+    .donate {
+        margin-top: 2rem;
+        padding: 1rem 2rem;
+        background-color: #f00946;
+        color: white;
+        border-radius: 20px;
+        transition: 0.3s ease;
+        cursor: pointer;
+    }
+
+    .donate:hover {
+        background-color: #830527;
+        transition: 0.3s ease;
+        color: white;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+}

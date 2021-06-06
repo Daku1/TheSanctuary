@@ -6,7 +6,7 @@
 }
 
 .navbar {
-    background: #182727;
+    background: #131a30;
     height: 80px;
     display: flex;
     justify-content: space-around;
@@ -33,7 +33,7 @@
 }
 
 .navbar-logo {
-    color: #aacece;
+    color: #c8d5ff;
     justify-self: start;
     cursor: pointer;
     text-decoration: none;
@@ -74,7 +74,7 @@
 }
 
 .nav-links:hover {
-    color: #a7e6e6;
+    color: #f00946;
     transform: scale(1.2);
     transition: all 0.3s ease;
 }
