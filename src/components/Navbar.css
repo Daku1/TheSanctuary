@@ -6,7 +6,7 @@
 }
 
 .navbar {
-    background: #131a30;
+    background: #9b2335;
     height: 80px;
     display: flex;
     justify-content: space-around;
@@ -33,7 +33,7 @@
 }
 
 .navbar-logo {
-    color: #c8d5ff;
+    color: #ffffff;
     justify-self: start;
     cursor: pointer;
     text-decoration: none;
@@ -61,7 +61,7 @@
 }
 
 .nav-item:hover {
-    border-bottom: 2px solid #f00946;
+    border-bottom: 2px solid #9b2335;
 }
 
 .nav-links {
@@ -74,7 +74,7 @@
 }
 
 .nav-links:hover {
-    color: #f00946;
+    color: black;
     transform: scale(1.2);
     transition: all 0.3s ease;
 }
@@ -106,7 +106,7 @@
     }
 
     .nav-menu.active {
-        background: #131a30;
+        background: #9b2335;
         left: 0;
         opacity: 1;
         transition: all 0.6s ease;
@@ -121,7 +121,7 @@
     }
 
     .nav-links:hover {
-        color: #f00946;
+        color: black;
         transform: scale(1.2);
         transition: all 0.3s ease;
     }
