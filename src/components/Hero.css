@@ -4,7 +4,7 @@
             rgba(0, 0, 0, 0.3),
             rgba(0, 0, 0, 0.6)
         ),
-        url('I:\intern\TheSanctuary\\src\images\back3.jpg');
+        url('../images/back3.jpg');
     height: 100vh;
     background-position: center;
     background-size: cover;
