@@ -16,43 +16,51 @@
 
 .card-wrapper {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
     align-items: center;
 }
 
 .card {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
     background-image: linear-gradient(
         to right top,
-        rgba(255, 255, 255, 0.6),
-        rgba(255, 255, 255, 0.8)
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.7)
     );
-    padding: 2rem;
+    padding: 1rem;
     margin: 1rem;
     color: black;
     list-style: none;
     border-radius: 10px;
-    width: 50rem;
-    height: 15rem;
+    width: 25rem;
+    height: 55rem;
 }
 
-.card h2 {
-    text-align: center;
-    margin-bottom: 15px;
+.image-wrapper {
+    transform: scale(0.5);
 }
-
-.card p {
-    text-align: center;
-    width: 500px;
-    color: black;
-    font-size: 16px;
+.image-wrapper2 {
+    transform: scale(0.624);
+}
+.text-wrapper h2 {
+    font-size: 25px;
+}
+.text-wrapper p {
+    margin-top: 10px;
+    font-size: 20px;
 }
 
 @media screen and (max-width: 1028px) {
+    .card-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .card {
         background-image: linear-gradient(
                 to right top,
@@ -65,16 +73,7 @@
         color: black;
         list-style: none;
         border-radius: 10px;
-        width: auto;
-        margin: 20px 25px;
-        height: auto;
-    }
-
-    .card h2 {
-        margin-bottom: 15px;
-    }
-
-    .card p {
-        width: 400px;
+        height: 55rem;
+        width: 25rem;
     }
 }

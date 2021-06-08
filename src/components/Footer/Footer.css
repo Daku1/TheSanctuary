@@ -15,8 +15,8 @@
 
 .ssicons li {
     padding: 1rem 1rem;
-    margin: 1rem 0.5rem;
-    font-size: 30px;
+    margin: 0.3rem 0.5rem;
+    font-size: 25px;
 }
 
 .ssicons li:hover {
@@ -26,6 +26,6 @@
 
 p {
     color: white;
-    font-size: 15px;
+    font-size: 10px;
     margin-bottom: 0.5rem;
 }
