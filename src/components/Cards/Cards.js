@@ -45,11 +45,11 @@ function Cards() {
                     <div className="text-wrapper">
                         <h2>GREATER MANAS RECOVERY PROJECT Wildlife</h2>
                         <p>
-                            Launched in 2008, the Coral Reef Recovery Project
-                            seeks to develop and implement appropriate
-                            strategies for the conservation of the Mithapur
-                            Reef, situated 12 kilometres south of the Gulf of
-                            Kachchh in Gujarat.
+                            Wildlife Trust of India's The Greater Manas
+                            Conservation Project aims on bringing back past
+                            glory of Manas landscape by restoring the ecological
+                            functionality of the landscape through implementing
+                            multifaceted actions.
                         </p>
                     </div>
                 </li>

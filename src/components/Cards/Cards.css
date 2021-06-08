@@ -28,12 +28,12 @@
     text-align: center;
     background-image: linear-gradient(
         to right top,
-        rgba(255, 255, 255, 0.5),
-        rgba(255, 255, 255, 0.7)
+        rgba(255, 255, 255, 0.6),
+        rgba(255, 255, 255, 0.9)
     );
     padding: 1rem;
     margin: 1rem;
-    color: black;
+    color: #9b2335;
     list-style: none;
     border-radius: 10px;
     width: 25rem;
@@ -52,6 +52,7 @@
 .text-wrapper p {
     margin-top: 10px;
     font-size: 20px;
+    color: black;
 }
 
 @media screen and (max-width: 1028px) {
@@ -63,14 +64,14 @@
     }
     .card {
         background-image: linear-gradient(
-                to right top,
-                rgba(255, 255, 255, 0.6),
-                rgba(255, 255, 255, 0.8)
-            )
-            url('I:\intern\TheSanctuary\src\images\back3.jpg');
+            to right top,
+            rgba(255, 255, 255, 0.6),
+            rgba(255, 255, 255, 0.9)
+        );
         padding: 2rem;
         margin: 1rem;
-        color: black;
+
+        color: #9b2335;
         list-style: none;
         border-radius: 10px;
         height: 55rem;
