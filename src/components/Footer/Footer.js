@@ -7,12 +7,12 @@ function Footer() {
         <div className="Footer-wrapper">
             <ul className="ssicons">
                 <li className="icons">
-                    <a href="https://www.linkedin.com/in/mkarthikeya/">
+                    <a href="https://www.linkedin.com">
                         <FaLinkedin />
                     </a>
                 </li>
                 <li className="icons">
-                    <a href="https://www.instagram.com/karthik_bht/">
+                    <a href="https://www.instagram.com">
                         <FaInstagram />
                     </a>
                 </li>
