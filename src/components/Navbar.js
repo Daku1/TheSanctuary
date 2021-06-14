@@ -11,7 +11,7 @@ function Navbar() {
                 <div className="navbar-container container">
                     <Link className="navbar-logo">
                         <FaPaw className="navbar-icon" />
-                        TheSanctuary
+                        TSF Sanctuary
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
                         {click ? (
