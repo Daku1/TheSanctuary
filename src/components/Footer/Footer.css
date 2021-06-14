@@ -29,3 +29,7 @@ p {
     font-size: 10px;
     margin-bottom: 0.5rem;
 }
+
+.icons a {
+    color: white;
+}
