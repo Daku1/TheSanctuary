@@ -31,6 +31,7 @@ h1 {
     padding: 0rem 8rem;
     text-align: center;
     color: rgb(255, 255, 255);
+    margin-bottom: 2rem;
 }
 h4 {
     margin-top: 2rem;
@@ -67,13 +68,15 @@ h4 {
 
 @media screen and (max-width: 828px) {
     h1 {
-        width: 750px;
+        width: 600px;
         padding: 0rem 8rem;
         text-align: center;
         border-bottom: white;
+        font-size: 30px;
+        margin-bottom: 1rem;
     }
     h4 {
-        margin-top: 2rem;
+        margin-top: 1rem;
         background: linear-gradient(
             to right bottom,
             rgba(0, 0, 0, 0.3),
@@ -84,7 +87,8 @@ h4 {
         color: #ffffff;
         padding: 1rem 1rem;
         border-radius: 10px;
-        width: 500px;
+        width: auto;
+        font-size: 18px;
     }
 
     .donate {

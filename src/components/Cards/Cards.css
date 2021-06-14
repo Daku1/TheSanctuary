@@ -75,6 +75,21 @@
         list-style: none;
         border-radius: 10px;
         height: 55rem;
-        width: 25rem;
+        width: 23rem;
+    }
+    .image-wrapper {
+        transform: scale(0.46);
+    }
+    .image-wrapper2 {
+        transform: scale(0.576);
+    }
+    .text-wrapper h2 {
+        font-size: 20px;
+        margin-bottom: 2rem;
+    }
+    .text-wrapper p {
+        margin-top: 10px;
+        font-size: 15px;
+        color: black;
     }
 }
